@@ -1,0 +1,53 @@
+* {
+  font-family: "oswald", serif;
+}
+body {
+  background-image: url(../images/body-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+nav {
+  background-color: #8ca38f;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+li {
+  display: inline;
+}
+
+a {
+  font-family: "oswald", serif;
+  text-decoration: unset;
+  font-size: larger;
+  color: #163327;
+  padding-right: 30px;
+  line-height: 1.9;
+}
+.container0,
+.container1 {
+  background-color: #163327;
+  border-radius: 20px;
+  border: 1px solid #8ca38f;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 5px 5px 15px;
+  margin: 20px 20px 20px 20px;
+}
+.aboutUs,
+.sustain {
+  color: #bdb18e;
+  font-weight: 100;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.aboutUsPar,
+.sustainP {
+  font-size: 20px;
+  color: #bdb18e;
+  padding: 5px;
+}

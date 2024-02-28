@@ -7,10 +7,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
+  height: 130vh;
   text-align: right;
 }
-
 
 header {
   background-image: url(images/petfoodbg.jpg);
@@ -22,12 +21,13 @@ header {
 }
 
 .proteinPaws {
-  font-family: "oswald", serif;
   font-weight: 300;
   font-size: 24px;
+  font-family: "oswald", serif;
   font-style: normal;
-  padding: 50px 0px 0px 530px;
+  padding: 50px 0 0 530px;
 }
+
 .paws {
   display: block;
   font-size: 80px;
@@ -40,11 +40,10 @@ nav {
   background-color: #8ca38f;
   height: 40px;
   text-align: center;
+  padding-top: 12px;
+  margin-bottom: 130px;
 }
 
-.nav {
-  padding-top: 8px;
-}
 a {
   padding-top: 10px;
   text-decoration: unset;
@@ -56,29 +55,30 @@ a {
 }
 
 aside {
-    display: inline-block;
-    width: 500px;
-    height: 399px;
-    background-color: #f0f0f0;
-    padding: 46px;
-    background-color: #59725d;
-    margin-top: 50px;
-    margin-right: 66px;
-    border: 2px solid #515552;
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px #292e29;
-    text-align: center;
+  display: inline-block;
+  width: 500px;
+  height: 399px;
+  background-color: #59725d;
+  padding: 46px;
+  margin-top: 50px;
+  margin-right: 66px;
+  border: 2px solid #515552;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px #292e29;
+  text-align: center;
 }
 
-.petFood, .petFood0{
+.petFood,
+.petFood0 {
   display: inline-block;
   width: 230px;
   border-radius: 10px;
   margin: 5px;
   box-shadow: 0px 2px 15px #040504;
 }
+
 .asideH {
-  color:#bdb18e;
+  color: #bdb18e;
   text-align: center;
   font-weight: 200;
   font-size: 40px;
@@ -90,24 +90,58 @@ aside {
   padding-top: 45px;
 }
 
-.chooseUs{
-    display: inline-block;
-    text-align: left;
-    display: inline-block;
-    width: 800px;
-    padding: 20px;
-}
-.secondHeader, .thirdHeader{
-    font-size: 50px;
-    font-weight: 300;
-    color: #bdb18e;
+.chooseUs {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  padding: 20px;
 }
 
-.chooseUsp, .quality{
-    font-weight: 200;
-    font-size: 25px;
-    color: #b79f7c;
-    padding: 10px;
-    letter-spacing: 1px;
+.secondHeader,
+.thirdHeader {
+  font-size: 50px;
+  font-weight: 300;
+  color: #bdb18e;
 }
 
+.chooseUsp,
+.quality {
+  font-weight: 200;
+  font-size: 25px;
+  color: #b79f7c;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.clients {
+  text-align: center;
+  margin: 184px;
+}
+
+.clients0,
+.clients1 {
+  font-size: 50px;
+  font-weight: 100;
+  color: #b79f7c;
+}
+
+.clients img {
+  width: 250px;
+  margin: 40px;
+  border-radius: 20px;
+  border: 1px solid #163327;
+  box-shadow: 5px 5px 15px #163327;
+}
+
+footer {
+  background-color: #202921;
+  height: 150px;
+  text-align: left;
+  margin-top: 190px;
+  text-align: center;
+}
+
+.copyright {
+  color: #bdb18e;
+  padding-top: 65px;
+}
