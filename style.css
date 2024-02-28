@@ -1,0 +1,82 @@
+* {
+  font-family: "oswald", serif;
+}
+body {
+  background-image: url(images/body-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header {
+  background-image: url(images/petfoodbg.jpg);
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 40px #202921;
+}
+
+.proteinPaws {
+  font-family: "oswald", serif;
+  font-weight: 300;
+  font-size: 24px;
+  font-style: normal;
+  padding: 50px 0px 0px 530px;
+}
+.paws {
+  display: block;
+  font-size: 80px;
+  font-weight: 400;
+  color: #322c23;
+  padding-bottom: 10px;
+}
+
+nav {
+  background-color: #8ca38f;
+  height: 40px;
+  text-align: center;
+}
+
+.nav {
+  padding-top: 8px;
+}
+a {
+  padding-top: 10px;
+  text-decoration: unset;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-right: 40px;
+  font-size: larger;
+  color: #163327;
+}
+
+aside {
+    width: 505px;
+    height: 399px;
+    background-color: #f0f0f0;
+    padding: 30px;
+    background-color: #59725d;
+    margin: 20px 0px 0px 938px;
+    border: 2px solid #515552;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #292e29;
+    text-align: center;
+}
+
+.petFood, .petFood0{
+  width: 230px;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0px 2px 15px #040504;
+}
+.asideH {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.asideContent {
+  font-weight: 200;
+  font-size: 18px;
+}
