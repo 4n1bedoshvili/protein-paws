@@ -6,8 +6,11 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
+  text-align: right;
 }
+
 
 header {
   background-image: url(images/petfoodbg.jpg);
@@ -15,6 +18,7 @@ header {
   background-size: cover;
   background-position: center;
   box-shadow: 5px 5px 40px #202921;
+  text-align: left;
 }
 
 .proteinPaws {
@@ -52,12 +56,14 @@ a {
 }
 
 aside {
-    width: 505px;
+    display: inline-block;
+    width: 500px;
     height: 399px;
     background-color: #f0f0f0;
-    padding: 30px;
+    padding: 46px;
     background-color: #59725d;
-    margin: 20px 0px 0px 938px;
+    margin-top: 50px;
+    margin-right: 66px;
     border: 2px solid #515552;
     border-radius: 20px;
     box-shadow: 5px 5px 20px #292e29;
@@ -65,18 +71,54 @@ aside {
 }
 
 .petFood, .petFood0{
+  display: inline-block;
   width: 230px;
   border-radius: 10px;
   margin: 5px;
   box-shadow: 0px 2px 15px #040504;
 }
 .asideH {
+  color:#bdb18e;
   text-align: center;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 40px;
 }
 
 .asideContent {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
+  padding-top: 45px;
 }
+
+.chooseUs{
+    display: inline-block;
+    text-align: left;
+    display: inline-block;
+    width: 800px;
+    padding: 20px;
+}
+.secondHeader, .thirdHeader{
+    font-size: 50px;
+    font-weight: 300;
+    color: #bdb18e;
+}
+
+.chooseUsp, .quality{
+    font-weight: 200;
+    font-size: 25px;
+    color: #b79f7c;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+/* .chooseUsp{
+    /* height: 232px;
+    width: 437px;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 1.3;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #9cc1b2;
+} */ */
